@@ -4,7 +4,13 @@
   "description": "## User Stories",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='src/*.html, src/main.css'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css",
+    "install:bower": "bower install --save",
+    "postinstall:bower": "wiredep --src 'src/*.html'",
+    "postinstall": "bower install",
+    "start:dist": "browser-sync start --server dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/CropSwap/crop_Swap_gui/issues"
   },
-  "homepage": "https://github.com/CropSwap/crop_Swap_gui"
+  "homepage": "https://github.com/CropSwap/crop_Swap_gui",
+  "dependencies": {
+    "bower": "^1.6.5",
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "sass": "^0.5.0"
+  }
 }

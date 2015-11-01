@@ -96,19 +96,13 @@ textarea {
    ========================================================================== */
 
 
+$fa-font-path: '../../bower_components/font-awesome/fonts';
 
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
 
-
-
-
-
-
-
-
-
-
-
-
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 
 /* ==========================================================================
