@@ -9,3 +9,11 @@
 4. Farmers should be able to browse other farmers crops
 5. Farmers should be able to browse the history of their old swaps
 6. Farmers should be able to update a trade
+
+## Feature Branches
+
+-- for sunday
+
+1. develop
+2. feature--yak-shaving
+3. release--0.0.0.
