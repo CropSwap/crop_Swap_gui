@@ -99,6 +99,8 @@ textarea {
 $fa-font-path: '../../bower_components/font-awesome/fonts';
 
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "mobile";
+@import "tablet";
 
 *, *::before, *::after {
   box-sizing: border-box;
