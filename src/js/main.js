@@ -8,21 +8,32 @@ TODO: add UI as a dependency once installed
 
 //IFFE
 ;(function () {
+  var BASE_URL = "http://cropswap.herokuapp.com/";
+
   angular.module('cropswap', ['ngRoute'], function($routeProvider) {
     $routeProvider
-      .when('/newact', {
-        templateUrl: 'partials/newact.html',
+      .when('/', {
+        redirectTo: '/signup'
+      })
+      .when('/signup', {
+        templateUrl: 'partials/signup.html',
         controller: function($http, $location) {
-          var create = this;
+          var signup = this;
 
-          create.newact = { };
+          signup.user = {
 
-          newact.submit = function() {
-            console.log("it works");
-            $http.post()
-          }
+          };
+
+          signup.signupUser = function () {
+            console.log('it works!');
+            $http.post("http://cropswap.herokuapp.com/users.json", signup.user)
+              .then(function() {
+                console.log('it works');
+                $location.path('/newact')
+              });
+          };
         },
-        controllerAs: 'newact'
+        controllerAs: 'signup'
       })
   })
 
