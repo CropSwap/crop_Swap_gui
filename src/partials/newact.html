@@ -1,10 +1,10 @@
-<form action="#" name="newact-form" id="newact-form" ng-submit: createUser($form)>
-  <h1>Create a New Account</h1>
+<form name="newactForm" id="newact-form" ng-submit="newact.newactuser(newactForm)">
+  <h1>Complete Profile</h1>
   <fieldset>
-    <input type="text" class="new-username-name"placeholder="Name" ng-model="newact.name"></input> <br>
-   <input type="text" class="new-username-number" placeholder="Mobile" ng-model="newact.phone"></input> <br>
-   <input type="text" class="new-username-zipcode" placeholder="Zipcode" ng-model="newact.zipcode"></input> <br>
-   <textarea type="text" class="new-username-description" placeholder="Write a brief personal description" ng-model="user.description"></textarea> <br>
-<button type="submit" name="create" id="create-act-button">Create Account</button>
+    <input type="text" class="new-username-name"placeholder="Name" ng-model="newact.user.name"></input> <br>
+   <input type="text" class="new-username-number" placeholder="Mobile" ng-model="newact.user.phone_number"></input> <br>
+   <input type="text" class="new-username-zipcode" placeholder="Zipcode" ng-model="newact.user.zipcode"></input> <br>
+   <textarea type="text" class="new-username-description" placeholder="Write a brief personal description" ng-model="newact.user.description"></textarea> <br>
+<button type="submit" name="create" id="create-act-button">Next</button>
   </fieldset>
 </form> <!-- end of #create-act-form -->

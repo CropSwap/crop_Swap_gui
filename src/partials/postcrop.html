@@ -1,0 +1,9 @@
+<form name="postcropForm" id="postcrop-form" ng-submit="postcrop.newcrop(postcropForm)">
+  <h1>Post Your Crop!</h1>
+  <fieldset>
+    <input type="text" class="new-crop-type"placeholder="Type" ng-model="postcrop.crop.type"></input> <br>
+   <input type="text" class="new-crop-weight" placeholder="Weight" ng-model="postcrop.crop.weight"></input> <br>
+   <textarea type="text" class="new-crop-description" placeholder="Write a brief description of your crop!" ng-model="postcrop.crop.description"></textarea> <br>
+<button type="submit" name="create" id="create-post-button">Next</button>
+  </fieldset>
+</form> <!-- end of #create-act-form -->
