@@ -1,15 +1,57 @@
-
 #newact-form {
   margin: 0 auto;
-  margin: 20%;
-  padding-bottom: 30%;
+  margin: 10%;
+  padding-bottom: 15%;
+  background-color: #D9CAA5;
+  opacity: .8;
+  padding-top: 25px;
+  padding-left: 40px;
+  border-radius: .4em;
+  h1 {
+    color: white;
+  }
 }
 
-.new-username-fullname {
+.new-username-name {
   margin-bottom: 20px;
 }
 
+.new-username-name:focus {
+ background-color: $default-focus;
+}
 
-.new-username {
+.new-username-number {
   margin-bottom: 20px;
+}
+
+.new-username-number:focus {
+  background-color:$default-focus;
+}
+
+.new-username-zipcode {
+  margin-bottom: 20px;
+}
+
+.new-username-zipcode:focus {
+  background-color: $default-focus;
+}
+
+.new-username-description {
+  margin-bottom: 20px;
+  height: 150px;
+  width: 400px;
+}
+
+.new-username-description:focus {
+  background-color: $default-focus;
+}
+
+#create-act-button {
+  width: 70%;
+  background-color: $default-bttncolor;
+  font-weight: bold;
+}
+
+#create-act-button:hover {
+  background-color: $default-hover-bttncolor;
 }

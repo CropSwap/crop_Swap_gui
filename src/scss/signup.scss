@@ -1,11 +1,38 @@
 #signup-form {
   background-color: #D9CAA5;
   color: #FFFFFF;
-  margin: 0 auto;
-  width: 100%;
+  margin: 10%;
   border-radius: .3em;
-  padding-bottom: 20px;
-  padding-left: 400px;
+  margin-top: 200px;
+  padding-top: 30px;
+  padding-right: 75px;
+  padding-bottom: 45px;
+  padding-left: 75px;
+  border-radius: .2em;
+  opacity: .8;
+  h1 {
+    text-align: center;
+    color: white;
+  }
+}
 
+button#signup-button {
+  margin-top: 10px;
+  background-color: #d37538;
+  width: 100%;
+  margin-right: 20px;
+}
 
+button#signup-button:hover {
+  background-color: #CF6622;
+}
+
+input.signup-email {
+  margin-bottom: 20px;
+  color: black;
+  //background-image: url('../img/envelope4.png'); need to figure out how to resize icon
+}
+
+.signup-email:focus {
+ background-color: #ffef99;
 }
