@@ -1,0 +1,10 @@
+<form name="newactForm" id="newact-form" ng-submit="newact.newactuser(newactForm)">
+  <h1>Complete Your Profile</h1>
+  <fieldset>
+    <input type="text" class="new-username-name"placeholder="Name" ng-model="newact.user.name"></input> <br>
+   <input type="text" class="new-username-number" placeholder="(999) 999-9999" ng-model="newact.user.phone_number"></input> <br>
+   <input type="text" class="new-username-zipcode" placeholder="Zip Code" ng-model="newact.user.zipcode"></input> <br>
+   <textarea type="text" class="new-username-description" placeholder="Write a brief personal description" ng-model="newact.user.description"></textarea> <br>
+<button type="submit" name="create" id="create-act-button">Next</button>
+  </fieldset>
+</form> <!-- end of #create-act-form -->

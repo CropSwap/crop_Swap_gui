@@ -1,0 +1,12 @@
+<form name="signupForm" id="signup-form" ng-submit="signup.signupUser(signupForm)">
+  <h1>Sign Up</h1>
+  <fieldset>
+    <p><strong>Sign Up for a New Account</strong></p>
+    <input type="text" class="signup-name"placeholder="Name" ng-model="signup.user.name"></input> <br>
+    <input type="text" class="signup-number" placeholder="(999) 999-9999" ng-model="signup.user.phone_number"></input> <br>
+    <input type="text" class="signup-zipcode" placeholder="Zip Code" ng-model="signup.user.zipcode"></input> <br>
+    <input type="text" class="signup-email" placeholder="Email" ng-model="signup.user.email"></input> <br>
+    <input type="password" class="signup-password" placeholder="Password"></input> <br>
+    <button type="submit" id="signup-button" value="send">Sign Up</button>
+  </fieldset>
+</form> <!-- end of #loginfrm -->

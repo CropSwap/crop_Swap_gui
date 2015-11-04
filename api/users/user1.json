@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "email": "ruti@mail.com",
+  "name": null,
+  "phone_number": "555-555-5555",
+  "description": "I am a happy farmer.",
+  "zip_code": 27701,
+  "created_at": "2015-11-03T21:21:26.303Z",
+  "updated_at": "2015-11-03T21:21:26.303Z",
+  "number_of_crops": 2,
+  "crops": [
+    {
+      "id": 1,
+      "crop_type_id": 1,
+      "user_id": 1,
+      "description": "TheBombDiggety",
+      "weight": 3
+    },
+    {
+      "id": 5,
+      "crop_type_id": 5,
+      "user_id": 1,
+      "description": "This radish is delectable. You want to trade me for this beet.",
+      "weight": 30
+    }
+  ]
+}
