@@ -101,11 +101,17 @@ $default-focus: #ffef99;
 $fa-font-path: '../../bower_components/font-awesome/fonts';
 
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
+
+//Sign up work flow
+@import "signup";
 @import "newact";
+@import "postcrop";
+@import "profile";
+
+// responsive designs
+
 @import "mobile";
 @import "tablet";
-@import "signup";
-@import "postcrop";
 
 *, *::before, *::after {
   box-sizing: border-box;

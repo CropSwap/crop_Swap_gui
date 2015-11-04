@@ -1,0 +1,17 @@
+<aside class="user-profile">
+  <section id="left-profile">
+    <ul>
+      <img src="{{user.avatar_url}}">
+      <h1 id="profile-name">{{profile.name}}</h1>
+      <h3 id="profile-username">{{profile.email}}</h3>
+      <li id="profile-description">{{profile.description}}</li>
+      <li id="profile-location">{{profile.zip_code}}</li>
+      <li id="profile-numbercrops">{{profile.number_of_crops}}</li>
+    </ul>
+
+    <div class="profile-crops">
+      <ul class="crops-list">
+        <li>{{profile.crop_type_id}}</li>
+      </ul>
+    </div> <!-- end of .profile-crops -->
+  </section> <!-- end of .user-profile -->

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 2,
+        "user_id": 2,
+        "crop_type_id": 2,
+        "description": "This tomato is delectable. You want to trade me for this beet.",
+        "weight": 2,
+        "url": "http://cropswap.herokuapp.com/crops/2.json"
+    },
+    {
+        "id": 3,
+        "user_id": 3,
+        "crop_type_id": 3,
+        "description": "This beet is delectable. You want to trade me for this beet.",
+        "weight": 4,
+        "url": "http://cropswap.herokuapp.com/crops/3.json"
+    },
+    {
+        "id": 4,
+        "user_id": 4,
+        "crop_type_id": 4,
+        "description": "This carrot is delectable. You want to trade me for this beet.",
+        "weight": 13,
+        "url": "http://cropswap.herokuapp.com/crops/4.json"
+    },
+    {
+        "id": 5,
+        "user_id": 1,
+        "crop_type_id": 5,
+        "description": "This radish is delectable. You want to trade me for this beet.",
+        "weight": 30,
+        "url": "http://cropswap.herokuapp.com/crops/5.json"
+    },
+    {
+        "id": 6,
+        "user_id": 2,
+        "crop_type_id": 6,
+        "description": "This spinach is delectable. You want to trade me for this beet.",
+        "weight": 13,
+        "url": "http://cropswap.herokuapp.com/crops/6.json"
+    },
+    {
+        "id": 7,
+        "user_id": 3,
+        "crop_type_id": 7,
+        "description": "This watermelon is delectable. You want to trade me for this beet.",
+        "weight": 2,
+        "url": "http://cropswap.herokuapp.com/crops/7.json"
+    },
+    {
+        "id": 8,
+        "user_id": null,
+        "crop_type_id": null,
+        "description": "TheBombDiggety",
+        "weight": null,
+        "url": "http://cropswap.herokuapp.com/crops/8.json"
+    },
+    {
+        "id": 1,
+        "user_id": 1,
+        "crop_type_id": 1,
+        "description": "TheBombDiggety",
+        "weight": 3,
+        "url": "http://cropswap.herokuapp.com/crops/1.json"
+    }
+]
